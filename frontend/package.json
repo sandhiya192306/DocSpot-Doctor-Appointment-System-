@@ -17,6 +17,7 @@
     "antd": "^6.0.0",
     "axios": "^1.13.2",
     "bootstrap": "^5.3.8",
+    "framer-motion": "^12.29.2",
     "mdb-react-ui-kit": "^9.0.0",
     "react": "^19.2.0",
     "react-bootstrap": "^2.10.10",

@@ -23,7 +23,6 @@ app.use('/api/admin/', require('./routes/adminRoutes'))
 app.use('/api/doctor',require('./routes/doctorRoutes'))
 
 
-
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+app.get('/', (req, res)=>{
+  res.send('welcome to docspot doctor appointment system')
 });

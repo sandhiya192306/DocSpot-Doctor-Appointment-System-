@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Container, Button } from 'react-bootstrap';
 import {  Row, Col ,Card} from "react-bootstrap";
 
+
 import {
   BsCalendarCheck,
   BsSearch,
@@ -98,10 +99,8 @@ const feedbacks = [
     location: "Bangalore",
     text: "Got reminders before my appointment and the visit was smooth.",
     img: patient3,
-  },
-];
-
-const Home = () => {
+  }];
+ const Home =()=> {
   return (
     <>
       <Navbar expand="lg" className="custom-navbar">
@@ -146,7 +145,7 @@ const Home = () => {
         <img
           src={p3}
           alt="DocSpot doctors"
-          className="about-img img-fluid"
+          className="about-img"
         />
       </Col>
 
@@ -179,7 +178,7 @@ const Home = () => {
         
       
     
-  
+  <div className="fade-in">
     <section className="py-5 bg-light">
       <Container>
         {/* Section Header */}
@@ -268,7 +267,7 @@ const Home = () => {
         </Row>
       </Container>
     </section>
-  
+  </div>
 
 
 
